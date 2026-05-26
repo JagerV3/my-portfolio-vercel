@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Dependencies / build output if added later
+node_modules/
+dist/
+build/
+.vercel/
+.env
+.env.*
