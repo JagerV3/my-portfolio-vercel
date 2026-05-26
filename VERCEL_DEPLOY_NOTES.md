@@ -1,16 +1,27 @@
-# Vercel deploy notes
+# Vercel Deployment Notes
 
-This is a static HTML/CSS/JS portfolio, so Vercel can deploy it with:
+This is a static portfolio website built with:
 
-- Framework Preset: Other
+- HTML
+- CSS
+- JavaScript
+
+The project can be deployed directly on Vercel without additional configuration.
+
+---
+
+## Vercel Settings
+
+- Framework Preset: `Other`
 - Build Command: leave empty
-- Output Directory: leave empty or `.`
+- Output Directory: `.`
 
-## Important
-The uploaded files include original creator attribution and a restriction notice. Before publishing this as your own portfolio, either get permission from the original creator or replace/rebuild the design and content with your own.
+---
 
-## Edit checklist
-- Change `index.html` title, logo text, hero name, location, avatar, social links, and footer.
-- Replace external image URLs with your own assets.
-- Remove unrelated Telegram/UPI/support sections if not needed.
-- Replace README demo/author details with your own project details.
+## Project Checklist
+
+- Update personal information in `index.html`
+- Replace placeholder assets and images
+- Update GitHub / LinkedIn / contact links
+- Replace demo content with personal projects
+- Optimize assets for performance
